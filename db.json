@@ -1,0 +1,125 @@
+{
+  "movies": [
+    {
+      "id": 1,
+      "title": "Inception",
+      "genre": "Sci-Fi",
+      "director": "Christopher Nolan",
+      "year": 2010,
+      "rating": 8.8,
+      "runtime": 148,
+      "comments": [
+        "Mind-bending plot and stunning visuals.",
+        "Very good"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "The Shawshank Redemption",
+      "genre": "Drama",
+      "director": "Frank Darabont",
+      "year": 1994,
+      "rating": 9.3,
+      "runtime": 142,
+      "comments": [
+        "A classic tale of hope and redemption."
+      ]
+    },
+    {
+      "id": 3,
+      "title": "The Dark Knight",
+      "genre": "Action",
+      "director": "Christopher Nolan",
+      "year": 2008,
+      "rating": 9,
+      "runtime": 152,
+      "comments": [
+        "Heath Ledger's Joker is iconic."
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Pulp Fiction",
+      "genre": "Crime",
+      "director": "Quentin Tarantino",
+      "year": 1994,
+      "rating": 8.9,
+      "runtime": 154,
+      "comments": [
+        "Quirky and non-linear storytelling."
+      ]
+    },
+    {
+      "id": 5,
+      "title": "The Godfather",
+      "genre": "Crime",
+      "director": "Francis Ford Coppola",
+      "year": 1972,
+      "rating": 9.2,
+      "runtime": 175,
+      "comments": [
+        "An offer you can't refuse."
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Forrest Gump",
+      "genre": "Drama",
+      "director": "Robert Zemeckis",
+      "year": 1994,
+      "rating": 8.8,
+      "runtime": 142,
+      "comments": [
+        "Life is like a box of chocolates."
+      ]
+    },
+    {
+      "id": 7,
+      "title": "The Matrix",
+      "genre": "Sci-Fi",
+      "director": "The Wachowskis",
+      "year": 1999,
+      "rating": 8.7,
+      "runtime": 136,
+      "comments": [
+        "Revolutionary visual effects."
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Titanic",
+      "genre": "Romance",
+      "director": "James Cameron",
+      "year": 1997,
+      "rating": 7.8,
+      "runtime": 195,
+      "comments": [
+        "Epic love story with a tragic end."
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Schindler's List",
+      "genre": "Biography",
+      "director": "Steven Spielberg",
+      "year": 1993,
+      "rating": 8.9,
+      "runtime": 195,
+      "comments": [
+        "Powerful portrayal of a dark chapter in history."
+      ]
+    },
+    {
+      "id": 10,
+      "title": "The Silence of the Lambs",
+      "genre": "Thriller",
+      "director": "Jonathan Demme",
+      "year": 1991,
+      "rating": 8.6,
+      "runtime": 118,
+      "comments": [
+        "Hannibal Lecter is chillingly brilliant."
+      ]
+    }
+  ]
+}

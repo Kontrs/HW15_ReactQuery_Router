@@ -1,0 +1,46 @@
+.wrapper{
+  display: flex;
+  justify-content: center;
+  padding: 40px 0;
+}
+
+.card{
+  display: flex;
+  flex-direction: column;
+  background-color: #2D9596;
+  border-radius: 10px;
+  padding: 20px 10px;
+  width: 350px;
+  text-align: center;
+}
+
+.title{
+  margin: 0;
+  padding-bottom: 15px;
+  font-weight: bold;
+}
+
+.text{
+  margin: 0;
+  padding-bottom: 6px;
+  font-size: 20px;
+}
+
+.commentWrapper{
+  display: flex;
+  padding-top: 15px;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.comment{
+  background-color: #9AD0C2;
+  border-radius: 10px;
+  padding: 5px 10px;
+}
+
+.inputWrapper{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}

@@ -1,0 +1,36 @@
+.card{
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  color: inherit;
+  text-align: center;
+}
+
+.title{
+  margin: 0;
+  padding-bottom: 15px;
+  font-weight: bold;
+}
+
+.text{
+  margin: 0;
+  padding-bottom: 6px;
+  font-size: 20px;
+}
+
+.buttonWrapper{
+  margin-top: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.wrapper{
+  display: flex;
+  flex-direction: column;
+  display: flex;
+  flex-direction: column;
+  background-color: #2D9596;
+  border-radius: 10px;
+  padding: 20px 10px;
+  width: 350px;
+}

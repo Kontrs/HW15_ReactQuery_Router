@@ -1,0 +1,15 @@
+.nav{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  padding: 20px 0;
+  gap: 40px;
+  background-color: #2D9596;
+  margin: 0;
+}
+ 
+.link{
+  text-decoration: none;
+  color: #ECF4D6;
+  font-size: 22px;
+}

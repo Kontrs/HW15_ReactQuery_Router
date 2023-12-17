@@ -1,0 +1,46 @@
+.wrapper{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.imageWrapper{
+  display: flex;
+  gap: 30px;
+  justify-content: space-around;
+  padding: 40px 80px;
+}
+
+.image1{
+  width: 315px;
+  height: 315px;
+  aspect-ratio: 1 / 1;
+}
+
+.image2{
+  aspect-ratio: 40 / 21;
+}
+
+.image3{
+  width: 315px;
+  height: 315px;
+  aspect-ratio: 1200 / 1043;
+}
+
+.textWrapper{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.textHeading{
+  font-size: 30px;
+  margin: 0;
+  padding-bottom: 15px;
+}
+
+.text{
+  font-size: 20px;
+  margin: 0;
+}

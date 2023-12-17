@@ -10,16 +10,6 @@ export const MovieDisplay = (): JSX.Element => {
   const { data: movie } = useGetMovie();
   const {mutateAsync: addMovieComment} = useAddComment();
 
-  const handleAddComment = () => {
-    if (movie) {
-      addMovieComment({ comment: inputValue, id: movie.id })
-        .then(() => setInputValue(''))
-        .catch((error) => {
-          console.error('Error adding comment:', error);
-        });
-    }
-  };
-
   return (
     <div className={styles.wrapper}>
       <div className={styles.card}>
@@ -38,7 +28,8 @@ export const MovieDisplay = (): JSX.Element => {
           className={styles.inputWrapper} 
           onSubmit={(e) => {
             e.preventDefault();
-            handleAddComment();
+            addMovieComment({comment: inputValue, id: movie?.id})
+            setInputValue('')
           }}>
           <Input 
             type='text' 

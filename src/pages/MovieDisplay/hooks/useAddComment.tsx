@@ -5,7 +5,7 @@ export const useAddComment = () => {
   const queryClient = useQueryClient();
   
   return useMutation({
-    mutationFn: ({comment, id}: {comment: string, id: number}) => {
+    mutationFn: ({comment, id}: {comment: string, id: number | undefined}) => {
       return axios.post(`http://localhost:3000/movies/${id}/comments}`, comment);
     },
     onSuccess: (): void => {

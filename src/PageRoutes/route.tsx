@@ -12,7 +12,7 @@ export const PageRoutes = (): JSX.Element => {
         <Route path='/movies/:id' element={<MovieDisplay/>}/>
         <Route path='/project' element={<Project/>}/>
         <Route path='/author' element={<Author/>}/>
-        <Route path='/*' element={<NotFound/>}/>
+        <Route path='/404' element={<NotFound/>}/>
       </Routes>
   )
 }

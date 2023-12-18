@@ -9,10 +9,10 @@ export const MovieDisplay = (): JSX.Element => {
   const [inputValue, setInputValue] = useState('');
   const { data: movie } = useGetMovie();
   const {mutateAsync: addMovieComment} = useAddComment();
-
+  
   return (
     <div className={styles.wrapper}>
-      <div className={styles.card}>
+      <div className={styles.card} key={movie?.id}>
         <h3 className={styles.title}>{movie?.title}</h3>
         <p className={styles.text}><b>Genre: </b>{movie?.genre}</p>
         <p className={styles.text}><b>Director: </b>{movie?.director}</p>
@@ -45,4 +45,5 @@ export const MovieDisplay = (): JSX.Element => {
       </div>
     </div>
   )
+      
 }

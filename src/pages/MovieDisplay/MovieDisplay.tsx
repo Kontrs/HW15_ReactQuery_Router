@@ -20,13 +20,13 @@ export const MovieDisplay = (): JSX.Element => {
         <p className={styles.text}><b>Rating: </b>{movie?.rating}</p>
         <p className={styles.text}><b>Length: </b>{movie?.runtime}  minutes</p>
         <div className={styles.commentWrapper}><b>Comments</b>
-          {movie?.comments.map((comment, index) => (
+          {movie?.comments.map((comment, index): JSX.Element => (
             <div className={styles.comment} key={index}>{comment}</div>
           ))}
         </div>
         <form 
           className={styles.inputWrapper} 
-          onSubmit={(e) => {
+          onSubmit={(e): void => {
             e.preventDefault();
             addMovieComment({comment: inputValue, id: movie?.id})
             setInputValue('')
@@ -37,7 +37,7 @@ export const MovieDisplay = (): JSX.Element => {
             required={true}
             value={inputValue}
             name='comment'
-            onChange={(e) => {
+            onChange={(e): void => {
               setInputValue(e.target.value)
             }}/>
           <Button type='submit' text='Add comment' size='small'/>
